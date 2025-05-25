@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
-author: Jeffrey
+title: Hello World!
+subtitle: Hello World!
+author: l8BL
 categories: jekyll
 banner: 
 tags:
