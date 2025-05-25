@@ -1,8 +1,17 @@
 ---
 layout: post
-title: Hello World!
-subtitle: Test Page
-author: l8BL
-categories: security
-banner:
+title: Welcome to Jekyll!
+subtitle: A awesome static site generator.
+author: Jeffrey
+categories: jekyll
+banner: 
+tags:
+  - jekyll
+  - theme
+  - yat
+top: 1
+sidebar:
 ---
+
+# Hello World!
+This is test page for l8BL
