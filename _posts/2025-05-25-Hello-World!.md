@@ -15,5 +15,4 @@ sidebar:
 
 ## Hello World!
 This is test page for l8BL
-
 Why Nothing Comesout?
