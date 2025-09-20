@@ -1,12 +1,14 @@
 ---
 layout: post
-title: OSCP+ Review
+title: "[KOR] OSCP+ Review"
 subtitle: How I passed OSCP+
 categories: Ceriticates
-tags: [pentest, oscp]
+tags:
+  - pentest
+  - oscp
 ---
 
-지난 
+지난 8월 15일 OSCP+ 시험을 응시했고 
 
 ## An exhibit of Markdown
 
