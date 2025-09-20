@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "[KOR] OSCP+ Review"
+title: "[KOR] OSCP+ 시험 리뷰"
 subtitle: How I passed OSCP+
 categories: Ceriticates
 tags:
   - pentest
   - oscp
 ---
+### 개요
 
 25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
 ![[Pasted image 20250921011837.png]]
