@@ -1,8 +1,8 @@
 ---
 layout: post
 title: OSCP+ Review
-subtitle: OSCP 시험 후기
-categories: Certificates
+subtitle: How I passed OSCP+
+categories: Ceriticates
 tags: [pentest, oscp]
 ---
 
