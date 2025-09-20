@@ -1,12 +1,12 @@
 ---
 layout: post
-title: OSCP 시험 리뷰
+title: OSCP+ Review
 subtitle: OSCP 시험 후기
 categories: Certificates
 tags: [pentest, oscp]
 ---
 
-This note demonstrates some of what [Markdown][1] is capable of doing.
+지난 
 
 ## An exhibit of Markdown
 
