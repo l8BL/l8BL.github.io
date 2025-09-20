@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \[KOR] OSCP 시험 리뷰
+title: [KOR] OSCP 시험 리뷰
 subtitle: OSCP 시험 후기
 categories: Certificates
 tags: [example, markdown]
