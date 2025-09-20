@@ -11,18 +11,12 @@ tags:
 25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
 ![[Pasted image 20250921011837.png]]
 
-OSCP+는 실전 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
+OSCP는 실전 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
 
-## 준비 
-
-### OSCP 교안
-
-해외 커뮤니티를 돌아다니다 보면, OSCP 교안이 도움이 된다 안된다에 대해서는 논쟁이 많다. 
-
-
+### 시험 준비 
 
 #### 문제풀이
-문제 풀이는 HacktheBox 머신을 풀었는데, 이 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
+HacktheBox 머신을 풀었는데, 어느 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
 https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997
 
 Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제를 별도로 정리해뒀으며, 조금 더 문제들이 OSCP 실전과 가깝다고 느꼈기 때문이다. 
@@ -30,101 +24,86 @@ Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제�
 HacktheBox 문제 풀이를 하고 이제는 단순히 답지만 참고하는게 아니라 IppSec 의 풀이랑 비교하면서 매일매일 얻는 지식을 기록했다. 
 https://www.youtube.com/@ippsec
 
-대강 도식화하면 아래와 같다.
+또한, 0xdf 블로그를 보면 시도한 시행착오를 전부 기입해두어 사고 방식 최적화에 도움이 되었던 것 같다.
+https://0xdf.gitlab.io/
+
+대강 문제 풀이를 도식화하면 아래와 같다.
 ![[hackthebox_methodology (1).png]]
 
-새로운 도구 활용법이나 커맨드 사용법은 기록해두는게 좋은 것 같다. 파일 편집하는 커맨드까지 전부 습득하면 다양한 환경에서 추후 도움이 많이 됐던 것 같다.
+이 때 새로운 도구 활용법이나 커맨드 사용법은 CheatSheet 에 기록해두는게 좋은 것 같다. 
+
+
+#### 정리
+배운 사항들은 CheatSheet 형식으로 정리하는게 좋은 것 같다. 그때 그때 메모해놓은 것을 꺼내보기 쉽게 해야하기 때문에 준비했던 사람들을 보면 TTP 단계에 따라 정리하는 방법이 있고 Port 순서대로 정리하는 방법이 크게 있었던 것 같다. 나는 전자와 같이 정리해서 항목이 아래와 같다.
+
+- 1. Information Gathering
+- 2. Exploit
+- 3. Password Attack
+- 4. Windows Priv Escal
+- 5. Linux Priv Escal
+- 6. AD Attack
+- 7. Lateral Movement
+- 8. Persistence
+- 9. Tunneling, Pivoting
+
+우선, OSCP 교안에 나온 커맨드를 위 형식에 따라 정리해놓고, 추가 학습이나 문제 풀이하면서 내용을 점점 붙이는 식으로 정리했다.
+
+단, 가장 중요한 것은 시험 당일에 정리한 내용을 쉽게 참고할 수 있도록 정리하는 것 같다. 혹시나 레빗홀에 빠져도 당황하지 않고 기계적인 풀이가 가능하도록 체크리스트 기반으로도 만들어두었다.
+
+Win 권한상승 체크리스트 예) 
+SharpUp.exe 돌리기 -> winpeas 스캔 -> privilege 조회 -> Binary, dll 하이재킹 대상 탐색, Credential 찾아보기 (txt, kdbx, zip, history, registry, 패스워드 재사용 등)
+
+이후, 체크리스트만 따라도 모든 문제가 풀릴 수 있게 HacktheBox 및 Challenge Labs 문제 풀이 때 최대한 시뮬레이션 하면서 체크리스트와 CheatSheet 를 수정했다.
+
+#### 추가 학습자료
+
+Linux 권한 상승의 경우, 아래의 HacktheBox 과정을 결제해서 들었을 때 꽤 많은 도움이 됐다.
+https://academy.hackthebox.com/module/details/51
+
+HacktheBox 풀이의 경우, 공식 풀이와 함께 아래 두 명의 풀이를 참고하는 것이 많은 도움이 된다.
+https://www.youtube.com/@ippsec
+https://0xdf.gitlab.io/
+
+HacktheBox 를 풀면서 어느 정도 손에 익으면 Proving Grounds 도 반드시 풀어보는 것을 추천한다. 시험 출제자인 Offsec 측에서 만든 문제들이라 어느 정도 실제 시험과 비슷한 환경이라고 느껴지는 시험이 많았던 것 같다.
+
+### 시험 응시
+
+#### 시험 예약
+시험은 8월 15일 19시로 예약했다. 15일은 휴일이었기에 푹 자고 일어나서 저녁에 응시하면 생생한 상태로 밤을 샐 수 있겠다는 판단에 그렇게 예약했다. 실제로 나한테는 해당 방법이 잘 먹혔던 것 같은게, 16일 19시에 시험을 종료할 때 까지 쌩쌩한 상태로 시험을 응시할 수 있었다.
+
+#### 시험 준비
+우선, 본 시험이 시작하기 전 감독관의 요청에 따라 주변 환경을 카메라로 비춰줘야 한다. 컴퓨터 환경 세팅 및 감독관 지시에 따라 몇몇 세팅을 완료하고 나면 본격적인 시험이 시작된다. 
+
+#### 본 시험
+시험이 시작하고 나서 일단 모든 자산에 대한 포트 스캐닝부터 시작했다. 포트 스캔을 포함한 초기 정보 수집은 공격 벡터를 정하는 중요한 단계라고 생각해서 천천히 그리고 꼼꼼히 수행했다.
+
+스캔을 완료하고 나면, 서비스 포트에 낮은 포트 번호부터 순차적으로 접근하여 서비스마다 학습했던 공격을 수행해본다. 
+
+초기 침투가 완료되면 CheatSheet 에 만들어둔 체크리스트를 따라 하나하나 놓치지 않고 모든 것을 다양하게 해보려고 노력했다. 이 때, 잘 되지 않는 부분이 있다면 과감하게 넘기고 다음 머신을 풀었다. 전환이 빨라야 다양하게 많이 해보는데, 막히는 문제를 붙잡고 있으면 어쩔 수 없이 레빗홀에 빠져 시간을 버린다는 느낌이 들었기 때문이다.
+
+이후 가장 중요한 점은 whoami, ipconfig와 함께 플래그 증적을 남겨야 한다는 점이다. 증적에 해당 사항이 나오지 않으면 플래그가 인정이 되지 않기 때문에 이 부분이 가장 중요하다.
+
+아래는 시험 당일 타임라인이다. 운이 좋게도 시험을 엄청 빨리 마치고 숙면을 취할 수 있었다.
+
+- 19:00 ~ 20:00 : 포트 스캔 및 첫 AD 머신 시도
+- 20:00 ~ 00:00 : 단독 머신 2대 초기 침투 완료 (+20)
+- 00:00 ~ 01:00 : 첫 AD 머신 장악 (+10)
+- 01:00 ~ 02:00 : 두번째 AD 머신 장악 (+10)
+- 02:00 ~ 04:00 : 세번째 AD 머신 장악 (+20)
+- 04:00 ~ 08:00 : 단독 머신 1대 권한 상승 완료 (+10)
+- 08:00 ~ 11:00 : 수면 및 휴식
+- 11:00 ~ 19:00 : 보고서 작성 및 제출
+
+### 시험을 준비 및 응시하면서 느낀 사항들
+
+- OSCP 자료를 볼 때, 외운다는 생각보단 이해하고 넘어간다는 생각으로 보아야 하는 것 같다.
+- 어떤 상황에서도 기계적인 풀이가 가능하게 체크리스트, CheatSheet 를 만드는 것은 중요하다.
+- 다른 사람의 풀이를 볼 때, 툴 사용만 중요한 것이 아니라 사고 방식을 배우는 것도 중요하다.
+- 다른 사람의 풀이를 볼 때, 스캐닝 파일을 편집하는 커맨드를 배우는 것도 도움이 많이 된다.
+- 본 시험에서 내 공격이 복잡해지고 있다면 무언가 잘못하고 있는 것이다.
+- 무언가 잘못하고 있다면 다른 머신이나 다른 취약점을 시도하는 등 빨리 전환을 해야한다.
+- 아무리 해도 무언가 안된다면 머신 Revert는 아끼지 말자.
+- 무엇보다 즐기는 마음으로 해야 스트레스를 안 받는 것 같다.
 
 
 
-
-
-
-## 교훈
-
-OSCP+ 를 결제하고 보다 보면 초반 부가 생각보다 뜬구름 잡는 얘기로 보인다. 왜냐하면 생각보다 해당 자격증이 다루고 있는 부분이 방대하기 때문이다. 정보보호개론에 나올 법한 CIA Triad 부터 제도 및 보고서 작성 방법까지 워낙 넓은 부분을 다루고 있기 때문에 자격증에 들어간 돈이 아깝다고 모든 부분을 외우려고 접근하면 정말정말 힘들게 볼 수 밖에 없다.
-
-
-
-
-
-*Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.*
-
-## Basic formatting
-
-Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.
-
-Paragraphs must be separated by a blank line. Basic formatting of *italics* and **bold** is supported. This *can be **nested** like* so.
-
-## Lists
-
-### Ordered list
-
-1. Item 1
-2. A second item
-3. Number 3
-4. Ⅳ
-
-*Note: the fourth item uses the Unicode character for [Roman numeral four][2].*
-
-### Unordered list
-
-* An item
-* Another item
-* Yet another item
-* And there's more...
-
-## Paragraph modifiers
-
-### Code block
-
-    Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
-
-You can also make `inline code` to add code into other things.
-
-### Quote
-
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
-
-## Headings
-
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.
-
-### Headings *can* also contain **formatting**
-
-### They can even contain `inline code`
-
-Of course, demonstrating what headings look like messes up the structure of the page.
-
-I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.
-
-## URLs
-
-URLs can be made in a handful of ways:
-
-* A named link to [MarkItDown][3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
-* Another named link to [MarkItDown](https://www.markitdown.net/)
-* Sometimes you just want a URL like <https://www.markitdown.net/>.
-
-## Horizontal rule
-
-A horizontal rule is a line that goes across the middle of the page.
-
----
-
-It's sometimes handy for breaking things up.
-
-## Images
-
-Markdown can also contain images. I'll need to add something here sometime.
-
-## Finally
-
-There's actually a lot more to Markdown than this. See the official [introduction][4] and [syntax][5] for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.
-
-
-  [1]: https://daringfireball.net/projects/markdown/
-  [2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
-  [3]: https://www.markitdown.net/
-  [4]: https://daringfireball.net/projects/markdown/basics
-  [5]: https://daringfireball.net/projects/markdown/syntax
