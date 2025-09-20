@@ -2,7 +2,7 @@
 layout: post
 title: "[KOR] OSCP+ 시험 리뷰"
 subtitle: How I passed OSCP+
-categories: Ceriticates
+categories: Certificates
 tags:
   - pentest
   - oscp
