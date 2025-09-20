@@ -8,12 +8,45 @@ tags:
   - oscp
 ---
 
-25년 8월 15일 OSCP+ 시험을 응시했고, 준비하시는 분들에게 도움이 되었으면 하는 바람에 합격 후기를 작성한다.
+25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
 ![[Pasted image 20250921011837.png]]
 
-## 준비 과정
+OSCP+는 실전 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
 
-작년 12월 Offsec 에서 할인 행사를 할 때, 함께 스터디하는 
+## 준비 
+
+### OSCP 교안
+
+해외 커뮤니티를 돌아다니다 보면, OSCP 교안이 도움이 된다 안된다에 대해서는 논쟁이 많다. 
+
+
+
+#### 문제풀이
+문제 풀이는 HacktheBox 머신을 풀었는데, 이 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
+https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997
+
+Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제를 별도로 정리해뒀으며, 조금 더 문제들이 OSCP 실전과 가깝다고 느꼈기 때문이다. 
+
+HacktheBox 문제 풀이를 하고 이제는 단순히 답지만 참고하는게 아니라 IppSec 의 풀이랑 비교하면서 매일매일 얻는 지식을 기록했다. 
+https://www.youtube.com/@ippsec
+
+대강 도식화하면 아래와 같다.
+![[hackthebox_methodology (1).png]]
+
+새로운 도구 활용법이나 커맨드 사용법은 기록해두는게 좋은 것 같다. 파일 편집하는 커맨드까지 전부 습득하면 다양한 환경에서 추후 도움이 많이 됐던 것 같다.
+
+
+
+
+
+
+## 교훈
+
+OSCP+ 를 결제하고 보다 보면 초반 부가 생각보다 뜬구름 잡는 얘기로 보인다. 왜냐하면 생각보다 해당 자격증이 다루고 있는 부분이 방대하기 때문이다. 정보보호개론에 나올 법한 CIA Triad 부터 제도 및 보고서 작성 방법까지 워낙 넓은 부분을 다루고 있기 때문에 자격증에 들어간 돈이 아깝다고 모든 부분을 외우려고 접근하면 정말정말 힘들게 볼 수 밖에 없다.
+
+
+
+
 
 *Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.*
 
