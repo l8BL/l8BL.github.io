@@ -9,6 +9,7 @@ tags:
 ---
 
 25년 8월 15일 OSCP+ 시험을 응시했고, 준비하시는 분들에게 도움이 되었으면 하는 바람에 합격 후기를 작성한다.
+![[Pasted image 20250921011837.png]]
 
 ## An exhibit of Markdown
 
