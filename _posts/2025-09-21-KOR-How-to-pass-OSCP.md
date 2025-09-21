@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[KOR] OSCP+ 시험 리뷰"
-subtitle: How I passed OSCP+
+subtitle: OSCP+ 시험 리뷰
 categories: Certificates
 tags:
   - pentest
@@ -12,7 +12,7 @@ tags:
 25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
 ![](/assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-1.png)
 
-OSCP는 실전 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
+OSCP는 이론보다는 실습 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
 
 ### 시험 준비 
 
@@ -105,6 +105,4 @@ HacktheBox 를 풀면서 어느 정도 손에 익으면 Proving Grounds 도 반�
 - 무언가 잘못하고 있다면 다른 머신이나 다른 취약점을 시도하는 등 빨리 전환을 해야한다.
 - 아무리 해도 무언가 안된다면 머신 Revert는 아끼지 말자.
 - 무엇보다 즐기는 마음으로 해야 스트레스를 안 받는 것 같다.
-
-
 
