@@ -8,7 +8,7 @@ tags:
   - oscp
 banner: /assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-1.png
 ---
-### 개요
+### 
 
 25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
 ![](/assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-1.png)
