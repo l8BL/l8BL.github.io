@@ -19,7 +19,7 @@ OSCP는 이론보다는 실습 위주의 시험이라 재밌게 준비할 수 �
 
 #### 문제풀이
 HacktheBox 머신을 풀었는데, 어느 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
-[Lainkusanagi OSCP Machine List](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
+[Lainkusanagi OSCP Like](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
 
 Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제를 별도로 정리해뒀으며, 조금 더 문제들이 OSCP 실전과 가깝다고 느꼈기 때문이다. 
 
