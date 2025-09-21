@@ -20,6 +20,7 @@ OSCP는 이론보다는 실습 위주의 시험이라 재밌게 준비할 수 �
 
 #### 문제풀이
 HacktheBox 머신을 풀었는데, 어느 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
+
 [Lainkusanagi OSCP Like](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
 
 Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제를 별도로 정리해뒀으며, 조금 더 문제들이 OSCP 실전과 가깝다고 느꼈기 때문이다. 
@@ -56,6 +57,7 @@ HacktheBox 문제 풀이를 하고 이제는 단순히 답지만 참고하는게
 단, 가장 중요한 것은 시험 당일에 정리한 내용을 쉽게 참고할 수 있도록 정리하는 것 같다. 혹시나 레빗홀에 빠져도 당황하지 않고 기계적인 풀이가 가능하도록 체크리스트 기반으로도 만들어두었다.
 
 Win 권한상승 체크리스트 예) 
+
 SharpUp.exe 돌리기 -> winpeas 스캔 -> privilege 조회 -> Binary, dll 하이재킹 대상 탐색, Credential 찾아보기 (txt, kdbx, zip, history, registry, 패스워드 재사용 등)
 
 이후, 체크리스트만 따라도 모든 문제가 풀릴 수 있게 HacktheBox 및 Challenge Labs 문제 풀이 때 최대한 시뮬레이션 하면서 체크리스트와 CheatSheet 를 수정했다.
