@@ -37,15 +37,15 @@ https://0xdf.gitlab.io/
 #### 정리
 배운 사항들은 CheatSheet 형식으로 정리하는게 좋은 것 같다. 그때 그때 메모해놓은 것을 꺼내보기 쉽게 해야하기 때문에 준비했던 사람들을 보면 TTP 단계에 따라 정리하는 방법이 있고 Port 순서대로 정리하는 방법이 크게 있었던 것 같다. 나는 전자와 같이 정리해서 항목이 아래와 같다.
 
-- 1. Information Gathering
-- 2. Exploit
-- 3. Password Attack
-- 4. Windows Priv Escal
-- 5. Linux Priv Escal
-- 6. AD Attack
-- 7. Lateral Movement
-- 8. Persistence
-- 9. Tunneling, Pivoting
+- Information Gathering
+- Exploit
+- Password Attack
+- Windows Priv Escal
+- Linux Priv Escal
+- AD Attack
+- Lateral Movement
+- Persistence
+- Tunneling, Pivoting
 
 우선, OSCP 교안에 나온 커맨드를 위 형식에 따라 정리해놓고, 추가 학습이나 문제 풀이하면서 내용을 점점 붙이는 식으로 정리했다.
 
