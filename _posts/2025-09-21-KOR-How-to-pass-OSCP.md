@@ -6,6 +6,7 @@ categories: Certificates
 tags:
   - pentest
   - oscp
+banner:
 ---
 ### 개요
 
