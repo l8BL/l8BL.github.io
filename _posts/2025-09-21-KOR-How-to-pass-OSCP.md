@@ -74,7 +74,7 @@ HacktheBox 풀이의 경우, 공식 풀이와 함께 아래 두 명의 풀이를
 
 [0xdf 블로그](https://0xdf.gitlab.io/)
 
-HacktheBox 를 풀면서 어느 정도 손에 익으면 Proving Grounds 도 반드시 풀어보는 것을 추천한다. 시험 출제자인 Offsec 측에서 만든 문제들이라 어느 정도 실제 시험과 비슷한 환경이라고 느껴지는 시험이 많았던 것 같다.
+HacktheBox 를 풀면서 어느 정도 손에 익으면 Proving Grounds 도 반드시 풀어보는 것을 추천한다.
 
 ### 시험 응시
 
