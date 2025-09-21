@@ -6,6 +6,7 @@ categories: Certificates
 tags:
   - pentest
   - oscp
+  - certificates
 banner: /assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-1.png
 ---
 ### 개요
