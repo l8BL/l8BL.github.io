@@ -10,7 +10,7 @@ tags:
 ### 개요
 
 25년 8월 15일 OSCP+ 시험을 응시했고, 8월 21일에 합격 통보를 받았다.
-![[Pasted image 20250921011837.png]]
+![](/assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-1.png)
 
 OSCP는 실전 위주의 시험이라 재밌게 준비할 수 있는 시험이었던 것 같다. 특히 어플리케이션 단의 취약점에 한정되어 있었던 내 시야를 인프라 측면까지 조금 더 넓게 볼 수 있게 만들어 줬다.
 
@@ -29,7 +29,7 @@ https://www.youtube.com/@ippsec
 https://0xdf.gitlab.io/
 
 대강 문제 풀이를 도식화하면 아래와 같다.
-![[hackthebox_methodology (1).png]]
+![](/assets/images/posts/2025-09-21-KOR-How-to-pass-OSCP/OSCP-2.png)
 
 이 때 새로운 도구 활용법이나 커맨드 사용법은 CheatSheet 에 기록해두는게 좋은 것 같다. 
 
