@@ -19,7 +19,7 @@ OSCP는 이론보다는 실습 위주의 시험이라 재밌게 준비할 수 �
 
 #### 문제풀이
 HacktheBox 머신을 풀었는데, 어느 시점부터는 TJNull's machine List 가 아닌 Lainkusanagi OSCP Like List 를 참고하기 시작했다.
-https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997
+[Lainkusanagi OSCP Machine List](https://docs.google.com/spreadsheets/d/18weuz_Eeynr6sXFQ87Cd5F0slOj9Z6rt/edit?gid=487240997#gid=487240997)
 
 Machine List를 바꾼 이유는 Lainkusanagi는 Assumed Breach Scenario 문제를 별도로 정리해뒀으며, 조금 더 문제들이 OSCP 실전과 가깝다고 느꼈기 때문이다. 
 
@@ -62,11 +62,14 @@ SharpUp.exe 돌리기 -> winpeas 스캔 -> privilege 조회 -> Binary, dll 하�
 #### 추가 학습자료
 
 Linux 권한 상승의 경우, 아래의 HacktheBox 과정을 결제해서 들었을 때 꽤 많은 도움이 됐다.
-[HTB 리눅스 권한 상승 ㅇ]()
+
+[HTB 리눅스 권한 상승 과정](https://academy.hackthebox.com/module/details/51)
 
 HacktheBox 풀이의 경우, 공식 풀이와 함께 아래 두 명의 풀이를 참고하는 것이 많은 도움이 된다.
-https://www.youtube.com/@ippsec
-https://0xdf.gitlab.io/
+
+[Ippsec 유튜브](https://www.youtube.com/@ippsec)
+
+[0xdf 블로그](https://0xdf.gitlab.io/)
 
 HacktheBox 를 풀면서 어느 정도 손에 익으면 Proving Grounds 도 반드시 풀어보는 것을 추천한다. 시험 출제자인 Offsec 측에서 만든 문제들이라 어느 정도 실제 시험과 비슷한 환경이라고 느껴지는 시험이 많았던 것 같다.
 
